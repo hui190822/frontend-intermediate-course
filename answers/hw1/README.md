@@ -74,7 +74,11 @@ justify-content: center;
 -  text-overflow: ellipsis
 - codepen: 
 
-{% iframe https://codepen.io/hui190822/embed/jOroQqp?height=95&theme-id=dark&default-tab=css,result %}
+<iframe height="265" style="width: 100%;" scrolling="no" title="讓多行文字超出時自動隱藏，並出現…" src="https://codepen.io/hui190822/embed/jOroQqp?height=265&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/hui190822/pen/jOroQqp'>讓多行文字超出時自動隱藏，並出現…</a> by hui190822
+  (<a href='https://codepen.io/hui190822'>@hui190822</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+<!-- {% iframe https://codepen.io/hui190822/embed/jOroQqp?height=95&theme-id=dark&default-tab=css,result %} -->
 
 ## 參考來源
 1. [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
