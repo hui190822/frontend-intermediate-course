@@ -73,10 +73,7 @@ justify-content: center;
 - 讓多行文字超出時自動隱藏，並出現…
 -  text-overflow: ellipsis
 - codepen: 
-
-<iframe height="265" style="width: 100%;" scrolling="no" title="讓多行文字超出時自動隱藏，並出現…" src="https://codepen.io/hui190822/embed/jOroQqp?height=265&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/hui190822/pen/jOroQqp'>讓多行文字超出時自動隱藏，並出現…</a> by hui190822
-  (<a href='https://codepen.io/hui190822'>@hui190822</a>) on <a href='https://codepen.io'>CodePen</a>.
+  [See the Pen](https://codepen.io/hui190822/pen/jOroQqp)
 </iframe>
 <!-- {% iframe https://codepen.io/hui190822/embed/jOroQqp?height=95&theme-id=dark&default-tab=css,result %} -->
 
