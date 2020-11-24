@@ -1,0 +1,46 @@
+*{
+    position: relative;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(0, 0, 0, .5);
+    background-image: url(https://i.imgur.com/yRBS55n.jpg);
+    /* background-blend-mode 針對背景圖片混合模式 */
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+} 
+
+.wrapper{
+    max-width: 100%;
+    /* margin: 30px; */
+
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    
+    /* outline: 1px solid #fff; */
+}
+figure {
+    max-width: 300px;
+    display: flex;
+    flex-flow: column;
+    margin: 30px;
+}
+figcaption {
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 10px 10px;
+    /* outline: 1px solid #fff; */
+    line-height: 24px;
+    display: flex;
+
+}
+.name{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+}
