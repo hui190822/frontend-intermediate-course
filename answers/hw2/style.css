@@ -1,60 +1,60 @@
 *{
-  position: relative;
-}
-
-body {
-    background: url(http://cdn.leagueoflegends.com/lolkit/1.1.6/resources/images/bg-default.jpg) no-repeat center;
-    background-attachment: fixed;
-}
-
-.container {
-    background-color: rgba(0,0,0,0.6);
-    min-height: 100vh;
-    padding-top: 100px;
-    
-}
-.row{
-    width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.col{
-    width: 300px;
-    display: inline-block;
-    margin-bottom: 30px;
-    /* transition: all 2s 2s ease; */
-    transition: filter 1s ease-in, box-shadow 1s ease-in;
-   /* transition-delay 會延遲1s開始動畫 & 離開1s後結束動畫 */
-    /* transition-delay: 1s; */
-}
-.col:hover{
-    cursor: pointer;
-    -webkit-filter: brightness(1.5);
-    box-shadow: 6px 6px 10px rgba(255, 255, 255, 0.3);
-}
-
-.preview img{
-    width: 100%;
-}
-.avatar img{
-    width: 50px;
-    height: 50px;
-    overflow: hidden;
-    border-radius: 50%;
-}
-.bottom{
-    background-color: rgba(0,0,0,0.6);
-    padding: 10px;
-    display: flex;
-    align-items: center;
-}
-.intro{
-    color: #fff;
-    padding-left: 20px;
-}
-.channel{
-    margin-bottom: 14px;
-}
+    position: relative;
+  }
+  
+  body {
+      background: url(http://cdn.leagueoflegends.com/lolkit/1.1.6/resources/images/bg-default.jpg) no-repeat center;
+      background-attachment: fixed;
+  }
+  
+  .container {
+      background-color: rgba(0,0,0,0.6);
+      min-height: 100vh;
+      padding-top: 100px;
+      
+  }
+  .row{
+      width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  
+  .col{
+      width: 300px;
+      display: inline-block;
+      margin-bottom: 30px;
+      /* transition: all 2s 2s ease; */
+      transition: filter 1s ease-in, box-shadow 1s ease-in;
+     /* transition-delay 會延遲1s開始動畫 & 離開1s後結束動畫 */
+      /* transition-delay: 1s; */
+  }
+  .col:hover{
+      cursor: pointer;
+      -webkit-filter: brightness(1.5);
+      box-shadow: 6px 6px 10px rgba(255, 255, 255, 0.3);
+  }
+  
+  .preview img{
+      width: 100%;
+  }
+  .avatar img{
+      width: 50px;
+      height: 50px;
+      overflow: hidden;
+      border-radius: 50%;
+  }
+  .bottom{
+      background-color: rgba(0,0,0,0.6);
+      padding: 10px;
+      display: flex;
+      align-items: center;
+  }
+  .intro{
+      color: #fff;
+      padding-left: 20px;
+  }
+  .channel{
+      margin-bottom: 14px;
+  }
